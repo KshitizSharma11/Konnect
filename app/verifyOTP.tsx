@@ -22,7 +22,7 @@ const verifyOTP = () => {
          
        <OtpInput
        />
-       <CustomButtonAlt containerStyles='mx-3 rounded-full'  onPress={()=>console.log("TP AYI")} title={"Continue"}/>
+       <CustomButtonAlt containerStyles='mx-3 rounded-full mt-5 bg-[#4b164c]'  onPress={()=>router.push("/basics")} title={"Continue"} textStyles='text-xl font-semibold text-white'/>
        </View>
        </SafeAreaView>
        </GestureHandlerRootView>

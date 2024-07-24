@@ -3,7 +3,7 @@ import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { GestureHandlerRootView, TextInput } from 'react-native-gesture-handler'
 import CustomInputAlt from '@/components/CustomInput'
-import CustomButton from '@/components/CustomButtonAlt'
+import CustomButtonAlt from '@/components/CustomButtonAlt'
 import { useRouter } from "expo-router";
 const login = () => {
   const router = useRouter();
@@ -28,9 +28,10 @@ const login = () => {
       maxLength={10}
      />
     
-     <CustomButton  title='Continue' containerStyles='rounded-full mt-10' 
-     onPress={()=>router.push('/verifyOTP')}
-     textStyles='text-[#dd88cf] font-medium text-base'/>
+    <CustomButtonAlt containerStyles='mx-3 rounded-full mt-5 bg-[#4b164c]' onPress={()=>router.push('/verifyOTP')} 
+     title={"Continue"} textStyles='text-xl font-semibold text-white'/>
+     
+    
 
      </View>
     </SafeAreaView>

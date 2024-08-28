@@ -9,20 +9,20 @@ const verifyOTP = () => {
     const router = useRouter();
     return (
       <GestureHandlerRootView>
-      <SafeAreaView className=' flex-1 bg-[#f4e3ee]'>
+      <SafeAreaView className=' flex-1 bg-[#ffedef]'>
         <View className='mt-32'>
-        <Text className='text-2xl  text-gray-600 text-center font-semibold' >
-          Verify your account
+        <Text className='text-2xl   text-center font-semibold' >
+          Verification Code
         </Text>
-        <Text className='text-lg  text-gray-600 text-center font-medium' >
-          Enter the 4- digit code
+        <Text className='text-sm mt-3 text-center font-normal' >
+          Please enter code we just sent to you
         </Text>
         </View>
         <View className='my-10 mx-3'>
          
        <OtpInput
        />
-       <CustomButtonAlt containerStyles='mx-3 rounded-full mt-5 bg-[#4b164c]'  onPress={()=>router.push("/basics")} title={"Continue"} textStyles='text-xl font-semibold text-white'/>
+       <CustomButtonAlt containerStyles='mx-3 rounded-full mt-5 bg-[#FF5069]'  onPress={()=>router.push("/basics")} title={"Continue"} textStyles='text-xl font-semibold text-white'/>
        </View>
        </SafeAreaView>
        </GestureHandlerRootView>

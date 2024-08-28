@@ -13,27 +13,20 @@ const basics = () => {
     const router = useRouter();
     return (
       <GestureHandlerRootView>
-      <SafeAreaView className=' flex-1 bg-[#f4e3ee]'>
+      <SafeAreaView className=' flex-1 bg-[#ffedef]'>
         <View className='mt-24'>
-        <Text className='text-4xl  text-[#4b164c] text-center font-bold' >
-          Welcome
+        <Text className='text-2xl text-center font-semibold' >
+          What's Your Name ?
         </Text>
-        <View className='px-4 pt-6 m-5 space-y-4'>
-        <Text>First Name</Text>
-        <View className='flex flex-row items-center space-x-6'>
-        <Entypo name='user' color={"#4b164c"} size={24}/>
-        <TextInput className='border-2 w-4/5 rounded-lg p-2' placeholder={"First Name"}></TextInput>
-        </View>
-        </View>
-        <View className='px-4 m-5  space-y-4'>
-        <Text>Last Name</Text>
-        <View className='flex flex-row items-center space-x-6'>
-        <Entypo name='user' color={"#4b164c"} size={24}/>
-        <TextInput className='border-2 w-4/5 rounded-lg p-2' placeholder={"Last Name"}></TextInput>
-        </View>
-        </View>
-        <CustomButtonAlt containerStyles='mx-3 rounded-full mt-5 bg-[#4b164c]'  onPress={()=>router.push("/basics2")} title={"Next"} textStyles='text-xl font-semibold text-white'/>
+        <Text className='text-sm text-[#333333] font-normal text-center mt-3'>Let's Get to Know Each Other</Text>
+        
+       
+        
+        <TextInput className='border border-[#FF5069] mx-auto w-4/5 rounded-full mt-7 mb-8 p-2' placeholder={"Name"}></TextInput>
+        
+        <CustomButtonAlt containerStyles='rounded-full w-4/5 mx-auto  bg-[#FF5069]'  onPress={()=>router.push("/basics2")} title={"Continue"} textStyles='text-xl font-semibold text-white'/>
        </View>
+
        </SafeAreaView>
        </GestureHandlerRootView>
        

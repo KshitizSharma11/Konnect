@@ -9,17 +9,15 @@ const login = () => {
   const router = useRouter();
   return (
     <GestureHandlerRootView>
-    <SafeAreaView className='justify-center flex-1 bg-[#f4e3ee]'>
-      <View className=' translate-y-32'>
-      <Text className='text-4xl  text-gray-600 text-center font-semibold' >
-        Konnecting... 
+    <SafeAreaView className='flex-1 bg-[#ffedef]'>
+      
+      <Text className='text-2xl mt-24 mx-14 text-center font-semibold' >
+        Let's start with your number
       </Text>
-      <Text className='text-4xl  text-gray-600 text-center font-semibold' >
-        Kangra 
-      </Text>
-      </View>
-      <View className='mt-40 mx-3'>
-        <Text className='text-sm font-light  mt-5'>Enter your phone number</Text>
+      
+     
+      <View className='mt-9 mx-3'>
+        
      <CustomInputAlt containerStyles='m-2 p-3 border-2 bg-white rounded-full border-purple-100'
       placeholder='+91 11122 23333' 
       textStyles='font-italic text-[#dd88cf]'
@@ -28,7 +26,7 @@ const login = () => {
       maxLength={10}
      />
     
-    <CustomButtonAlt containerStyles='mx-3 rounded-full mt-5 bg-[#4b164c]' onPress={()=>router.push('/verifyOTP')} 
+    <CustomButtonAlt containerStyles='mx-3 rounded-full mt-5 bg-[#FF5069]' onPress={()=>router.push('/verifyOTP')} 
      title={"Continue"} textStyles='text-xl font-semibold text-white'/>
      
     

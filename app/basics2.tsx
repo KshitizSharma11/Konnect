@@ -13,22 +13,25 @@ const basics2 = () => {
     const router = useRouter();
     return (
       <GestureHandlerRootView>
-      <SafeAreaView className=' flex-1 bg-[#f4e3ee]'>
+      <SafeAreaView className=' flex-1 bg-[#ffedef]'>
         <View className='mt-24'>
-        <Text className='text-4xl  text-[#4b164c] text-center font-bold' >
-          Selecte Your Gender
+        <Text className='text-2xl text-center font-semibold' >
+          What's Your Gender ?
         </Text>
-        <View className='px-4 pt-6 m-5 space-y-4 flex flex-row items-center justify-between'>
-       <View className='m-2 p-4 border-2 border-purple-400 flex-1 justify-center items-center rounded-full bg-gray-50 max-w-70 max-h-70'>
-       <Foundation name="male-symbol" size={70} color="#4b164c" />
-       <Text>Male</Text>
+        <Text className='text-sm text-center mt-4 mb-14' >
+          Tell us about your gender
+        </Text>
+        <View className='flex flex-col  gap-10 items-center mx-auto'>
+       <View className='w-40 h-40 p-4   justify-center items-center rounded-full bg-[#FF5069] '>
+       <Foundation name="male-symbol" size={70} color="white" />
+       <Text className='font-medium text-lg text-white'>Male</Text>
        </View>
-       <View className='m-2 p-4 border-2 border-pink-400 transform -translate-y-1 flex-1 justify-center items-center rounded-full bg-gray-50 max-w-70 max-h-70'>
-       <Foundation name="female-symbol" size={70} color="#4b164c" />
-       <Text>Female</Text>
+       <View className='w-40 h-40 p-4  transform -translate-y-1 justify-center items-center rounded-full bg-[#F0E4E6] '>
+       <Foundation name="female-symbol" size={70} color="black" />
+       <Text className='font-medium text-lg'>Female</Text>
        </View>
-        </View>
-        <CustomButtonAlt containerStyles='mx-3 rounded-full mt-5 bg-[#4b164c]'  onPress={()=>router.push("/basics3")} title={"Next"} textStyles='text-xl font-semibold text-white'/>
+       </View>
+        <CustomButtonAlt containerStyles='mx-3 mt-10 rounded-full mt-5 bg-[#FF5069]'  onPress={()=>router.push("/basics3")} title={"Next"} textStyles='text-xl font-semibold text-white'/>
        </View>
        </SafeAreaView>
        </GestureHandlerRootView>

@@ -21,7 +21,7 @@ const basics3 = () => {
         <View className='px-4'>
        <CustomYearPicker/>
         </View>
-        <CustomButtonAlt containerStyles='mx-3 rounded-full  bg-[#4b164c]'  onPress={()=>router.push("/basics3")} title={"Next"} textStyles='text-xl font-semibold text-white'/>
+        <CustomButtonAlt containerStyles='mx-3 rounded-full  bg-[#4b164c]'  onPress={()=>router.push("/basics4")} title={"Next"} textStyles='text-xl font-semibold text-white'/>
        </View>
        </SafeAreaView>
        </GestureHandlerRootView>

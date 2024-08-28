@@ -33,7 +33,7 @@ const OtpInput = ({ length = 4, onChangeText }: OtpInputProps) => {
           .map((_, index) => (
             <TextInput
               key={index}
-              className='p-2 border m-3 w-10 h-10 text-center focus:border-2 focus:border-[#dd88cf]'
+              className='p-2 border m-3 w-14 h-14 bg-white rounded-full text-center focus:border-2 focus:border-[#FF5069]'
               maxLength={1}
               selectionColor={'#dd88cf'}
               keyboardType='number-pad'

@@ -13,15 +13,15 @@ const basics3 = () => {
     const router = useRouter();
     return (
       <GestureHandlerRootView>
-      <SafeAreaView className=' flex-1 bg-[#f4e3ee]'>
+      <SafeAreaView className=' flex-1 bg-[#ffedef]'>
         <View className='mt-16'>
-        <Text className='text-4xl m-4 text-[#4b164c] text-center font-bold' >
-          Select Your Birth Year
+        <Text className='text-2xl m-4 text-center font-semibold' >
+        How old are you?
         </Text>
         <View className='px-4'>
        <CustomYearPicker/>
         </View>
-        <CustomButtonAlt containerStyles='mx-3 rounded-full  bg-[#4b164c]'  onPress={()=>router.push("/basics4")} title={"Next"} textStyles='text-xl font-semibold text-white'/>
+        <CustomButtonAlt containerStyles='mx-3 mt-10 rounded-full mt-5 bg-[#FF5069]'  onPress={()=>router.push("/basics4")} title={"Next"} textStyles='text-xl font-semibold text-white'/>
        </View>
        </SafeAreaView>
        </GestureHandlerRootView>

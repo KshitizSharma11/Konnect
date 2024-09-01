@@ -1,13 +1,10 @@
 import { View, Text, SafeAreaView,Image } from 'react-native'
 import React from 'react'
 import CustomButtonAlt from '@/components/CustomButtonAlt';
-import CustomYearPicker from '@/components/inputs/CustomYearPicker';
-import OtpInput from '@/components/OtpInput';
-import DateTimePickerModal from 'react-native-modal-datetime-picker';
-import moment from 'moment';
+
 import { useRouter } from 'expo-router';
 import { GestureHandlerRootView, TextInput } from 'react-native-gesture-handler';
-import { Ionicons,Entypo ,Foundation} from '@expo/vector-icons';
+import {Foundation} from '@expo/vector-icons';
 
 const basics2 = () => {
     const router = useRouter();

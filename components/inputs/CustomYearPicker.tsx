@@ -19,7 +19,7 @@ const CustomYearPicker = () => {
       onPress={() => setActiveYear(item)}
     >
       <Text
-        className={`text-center ${item == activeYear ? 'font-bold text-3xl text-pink-600' : 'font-medium text-xl'}`}
+        className={`text-center ${item == activeYear ? 'font-bold text-3xl text-[#FF5069]' : 'font-medium text-xl'}`}
       >
         {item}
       </Text>

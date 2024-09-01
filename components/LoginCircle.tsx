@@ -10,10 +10,10 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { FontAwesome6 } from '@expo/vector-icons';
 const LoginCircle = () => {
   return (
-    <View className='items-center mb-10'>
-     <View className='border border-purple-100 rounded-full border-dotted  w-86 h-86 p-6 items-center justify-center'>
+    <View className='items-center'>
+     <View className='border border-pink-300 rounded-full border-dotted  w-86 h-86 p-6 items-center justify-center'>
         <View className=' bg-white rounded-full w-72 h-72 items-center justify-center'>
-        <View className='bg-[#faedf8] rounded-full w-64 h-64 items-center justify-center'>
+        <View className='bg-pink-200 rounded-full w-64 h-64 items-center justify-center'>
         <Image source={modelGuy} className='rounded-full w-10 h-10 transform -translate-y-28 -translate-x-4 absolute z-10 border-4 border-purple-300'/>
         <Image source={modelOne} className='rounded-full w-10 h-10 transform translate-y-[100px] translate-x-14 absolute z-10 border-4 border-purple-300'/>  
         <Image source={modelBoy} className='rounded-full w-14 h-14 transform translate-y-20 -translate-x-36 absolute z-10 border-4 border-purple-300'/>  

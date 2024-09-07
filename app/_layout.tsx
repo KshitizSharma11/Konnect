@@ -2,7 +2,7 @@ import { Stack, useRouter } from 'expo-router';
 import { useEffect, useState } from 'react';
 
 export default function Layout() {
-    const [onboard, setOnboard] = useState(true);  // Set based on your logic (e.g. AsyncStorage)
+    const [onboard, setOnboard] = useState(false);  // Set based on your logic (e.g. AsyncStorage)
     const router = useRouter();  // Get the router for navigation
 
     useEffect(() => {

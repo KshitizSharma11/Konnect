@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "140026643353",
+    "project_id": "konnect-4800d",
+    "storage_bucket": "konnect-4800d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140026643353:android:18248bc6dd876884678908",
+        "android_client_info": {
+          "package_name": "com.kshitiz_sharma_k.s.Konnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADRatd5Cq-TPT1zshJYrsBViPcJ_e9sPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

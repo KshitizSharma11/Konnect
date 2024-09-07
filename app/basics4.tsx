@@ -7,7 +7,7 @@ import { GestureHandlerRootView, TextInput } from 'react-native-gesture-handler'
 import { Ionicons,Entypo ,Foundation} from '@expo/vector-icons';
 
 
-const basics3 = () => {
+const basics4 = () => {
     const router = useRouter();
     const arr:string[]=["A Long-Term Relationship","Marriage","Something Casual","I'm not sure"];
     return (
@@ -29,4 +29,4 @@ const basics3 = () => {
     );
 }
 
-export default basics3
+export default basics4

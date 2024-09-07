@@ -7,7 +7,7 @@ import { GestureHandlerRootView, TextInput } from 'react-native-gesture-handler'
 
 
 
-const basics5 = () => {
+const main = () => {
     const router = useRouter();
     
     return (
@@ -29,4 +29,4 @@ const basics5 = () => {
     );
 }
 
-export default basics5
+export default main

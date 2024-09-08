@@ -18,7 +18,7 @@ export default function Layout() {
         <Stack screenOptions={{ headerShown: false }}>
             <Stack.Screen name="index" />
             <Stack.Screen name="login" />
-            <Stack.Screen name="verifyOTP" />
+            
             <Stack.Screen name="basics" />
             <Stack.Screen name="basics2" />
             <Stack.Screen name="basics3" />

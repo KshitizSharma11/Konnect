@@ -3,7 +3,8 @@
     "name": "Konnect",
     "slug": "Konnect",
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "@react-native-firebase/app", "@react-native-firebase/auth"
     ],
     "version": "1.0.0",
     "orientation": "portrait",

@@ -16,7 +16,8 @@ const CustomInput = ({placeholder,value,onChangeText,containerStyles,textStyles,
     <View className={`${containerStyles}`}>
       <TextInput className={`${textStyles}`} placeholder={placeholder} selectionColor={selectionColor}
       keyboardType={keyboardType}
-      maxLength={maxLength}></TextInput>
+      maxLength={maxLength} 
+      onChangeText={onChangeText}></TextInput>
     </View>
   )
 }
